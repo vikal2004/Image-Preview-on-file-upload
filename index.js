@@ -17,31 +17,3 @@ InputFile.addEventListener("change", function(){
 })
 
 
-// const inputFile = document.getElementById("inputfile");
-// const imgContainer = document.getElementById("imagecontainer");
-// const imgPreview = imgContainer.querySelector(".Image_Preview");
-// const imgDefText = imgContainer.querySelector(".imagePreview_defaultText");
-
-// inputFile.addEventListener("change", function () {
-//     const file = this.files[0];
-
-//     if (file) {
-//         const reader = new FileReader();
-
-//         imgDefText.style.display = "none";
-//         imgPreview.style.display = "block";
-
-//         reader.addEventListener("load", function () {
-//             // Use the 'target' property to get the result
-//             imgPreview.setAttribute("src", reader.result);
-//         });
-
-//         // Handle errors during reading the file
-//         reader.addEventListener("error", function () {
-//             console.error("Error reading the file");
-//         });
-
-//         // Start reading the file as a data URL
-//         reader.readAsDataURL(file);
-//     }
-// });
